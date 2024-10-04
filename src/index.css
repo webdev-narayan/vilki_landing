@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.feature-card {
+    background: linear-gradient(90deg, #FBFDFF 0%, #E6F7FE 100%)
+}
+
+.offer-card {
+    background: linear-gradient(180deg, rgba(243, 249, 255, 0.5) 0%, rgba(196, 224, 253, 0.5) 100%);
+}
+
+.c-container {
+    max-width: 1440px;
+    margin: auto;
+}
