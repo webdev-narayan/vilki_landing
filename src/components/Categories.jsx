@@ -16,7 +16,7 @@ import categoryIcon from "../assets/category/category-icon.svg"
 // import logo_7 from "../assets/category/subimgs/logo-7.png"
 // import logo_8 from "../assets/category/subimgs/logo-8.png"
 // import logo_9 from "../assets/category/subimgs/logo-9.png"
-import mainImg from "../assets/category/main.png"
+import mainImg from "../assets/category/main.webp"
 
 const Categories = () => {
 

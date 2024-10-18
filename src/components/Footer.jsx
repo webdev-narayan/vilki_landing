@@ -47,16 +47,10 @@ export default function Footer() {
 
         </div>
 
-        <div className="mt-12 c-container border-t border-gray-100 pt-6">
+        <div className="mt-12 c-container border-t border-gray-300 py-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
-            <p className="text-sm text-gray-500">
-              <span className="block sm:inline">
-                Design & Developed by Techkaka 💻{" "}
-              </span>
-            </p>
-
-            <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-              &copy; 2024 Vilki. All rights reserved.
+            <p className="mt-4 text-sm text-gray-300 sm:order-first sm:mt-0 capitalize">
+              &copy; Vilki Medicart pvt ltd all right reserved. 2023-2024
             </p>
           </div>
         </div>

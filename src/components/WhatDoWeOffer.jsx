@@ -18,7 +18,7 @@ const data = [
     image: tab
   },
   {
-    title: "Vilki Medicart App",
+    title: "Vilki Mobile App",
     lists: ["Our user-friendly Android & iOS app empowers seamless product selection &order placement, transforming the shopping experience.",
       "Stay ahead in mobile commerce with our intuitive app. Streamline the entire purchasing process for a frictionless experience."
     ],

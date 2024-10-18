@@ -2,7 +2,7 @@ import { BiPhoneIncoming } from "react-icons/bi";
 import HeaderNav from "../components/HeaderNav";
 import Button from "../components/ui/Button";
 import draw_web from "../assets/hero_section_artifacts/draw.svg"
-// import imageCover from "../assets/mobile_app.jpg"
+import imageCover from "../assets/hero_section_artifacts/deskimg.png"
 import iphone from "../assets/hero_section_artifacts/iphone.png"
 import floating_1 from "../assets/hero_section_artifacts/1.svg"
 import floating_2 from "../assets/hero_section_artifacts/2.svg"
@@ -44,8 +44,8 @@ const Hero = () => {
                 </div>
                 <div className="p-6 relative lg:w-[1000px] w-full h-[704px] mx-auto md:mt-[70px] hidden md:block">
 
-                    <div className="w-full lg:w-[929px] lg:h-[614px] bg-white shadow-lg  z-10 rounded-lg mx-auto relative ">
-                        {/* <img src={imageCover} className="object-cover" /> */}
+                    <div className="w-full lg:w-[929px] lg:h-[614px] bg-white shadow-lg  z-10 rounded-lg mx-auto relative overflow-hidden">
+                        <img src={imageCover} className="object-cover object-left -mt-2 h-full" />
                     </div>
                     <img src={iphone} className="absolute bottom-0 right-6 z-10" />
                 </div>
